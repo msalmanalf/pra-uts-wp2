@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 26 Okt 2021 pada 10.49
+-- Waktu pembuatan: 28 Okt 2021 pada 21.01
 -- Versi server: 10.1.38-MariaDB
 -- Versi PHP: 5.6.40
 
@@ -40,7 +40,8 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`nim`, `nama`, `kelas`, `alamat`) VALUES
-('12200317', 'Mohamad Salman Alfarisi', '12.3A.04', 'Bekasi Cibiting Perumahan Trias, Jl. Harum Manis 3'),
+('12200317', 'Mohamad Salman Alfarisi', '12.3A.04', 'Bekasi Cibitung Perumahan Trias, Jl. Harum Manis 3'),
+('12210756', 'Andre Gustav', '12.3A.04', 'Jl. Mawar Blok G no.43'),
 ('12344678', 'Ali Baba', '12.3A.04', 'Jl. Ababwa no. 666');
 
 --
