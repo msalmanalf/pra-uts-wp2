@@ -9,7 +9,7 @@
     <?php echo form_open("mahasiswa/ubah/".$mahasiswa->nim); ?>
       <table cellpadding="8">
         <tr>
-          <td>NIS</td>
+          <td>NIM</td>
           <td><input type="text" name="input_nim" value="<?php echo set_value('input_nim', $mahasiswa->nim); ?>" readonly></td>
         </tr>
         <tr>
