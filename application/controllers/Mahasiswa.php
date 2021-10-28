@@ -11,7 +11,7 @@ class Mahasiswa extends CI_Controller {
     $data['mahasiswa'] = $this->MahasiswaModel->view();
     $this->load->view('mahasiswa/index', $data);
   }
-  
+
   public function tambah(){
     if($this->input->post('submit')){
       if($this->MahasiswaModel->validation("save")){
@@ -37,6 +37,6 @@ class Mahasiswa extends CI_Controller {
   
   public function hapus($nim){
     $this->MahasiswaModel->delete($nim);
-    redirect('mahasiswa');
+    redirect ('mahasiswa');
   }
 }
